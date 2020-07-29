@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/libp2p/js-libp2p.git"
+    "url": "https://github.com/Melotte/js-libp2p.git"
   },
   "keywords": [
     "libp2p",
@@ -32,9 +32,8 @@
     "IPFS"
   ],
   "bugs": {
-    "url": "https://github.com/libp2p/js-libp2p/issues"
+    "url": "https://github.com/Melotte/js-libp2p/issues"
   },
-  "homepage": "https://libp2p.io",
   "license": "MIT",
   "engines": {
     "node": ">=10.0.0",
@@ -61,10 +60,10 @@
     "libp2p-crypto": "^0.17.8",
     "libp2p-interfaces": "^0.3.1",
     "libp2p-utils": "^0.1.2",
-    "mafmt": "git+https://github.com/Melotte/js-mafmt.git",
+    "mafmt": "git+https://github.com/Melotte/js-mafmt.git#v7.1.0-patched",
     "merge-options": "^2.0.0",
     "moving-average": "^1.0.0",
-    "multiaddr": "git+https://github.com/Melotte/js-multiaddr.git",
+    "multiaddr": "git+https://github.com/Melotte/js-multiaddr.git#v7.5.0-patched",
     "multistream-select": "^0.15.0",
     "mutable-proxy": "^1.0.0",
     "node-forge": "^0.9.1",
